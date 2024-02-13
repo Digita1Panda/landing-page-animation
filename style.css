@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fee3c6;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 20px 0;
+  background: #fee3c6;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 40px;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-container h1 {
+  font-family: sans-serif;
+}
+
+.sidebar {
+  background: #c6e1fe;
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  right: -20px;
+  top: -50px;
+  z-index: -1;
+  border-radius: 0px 0px 300px 300px;
+  transform: rotate(52deg);
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.content h1 {
+  margin-left: -10rem;
+  margin-bottom: 1rem;
+  /* margin-right: 15rem; */
+}
+
+.content p {
+  margin-left: -10rem;
+  margin-right: 8rem;
+  font-size: 500;
+}
+
+.main-image {
+  max-width: 480px;
+  margin: -2rem -25rem 0 20rem;
+  border-radius: 100px 10px 100px 10px;
+  /* margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: -10rem; */
+}
